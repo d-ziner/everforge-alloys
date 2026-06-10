@@ -56,7 +56,7 @@ export function Footer() {
             <ul className="flex flex-col gap-4 text-sm">
               <li className="flex items-start gap-3">
                 <MapPin className="mt-0.5 h-5 w-5 shrink-0 text-primary" />
-                <span>Industrial Area Phase II<br />Mumbai, Maharashtra, India</span>
+                <span>Gali No. B5, Gopal Puri<br />Aligarh, Uttar Pradesh 202001, India</span>
               </li>
               <li className="flex items-center gap-3">
                 <Mail className="h-5 w-5 shrink-0 text-primary" />
@@ -64,7 +64,7 @@ export function Footer() {
               </li>
               <li className="flex items-center gap-3">
                 <Phone className="h-5 w-5 shrink-0 text-primary" />
-                <span>+91-9999999999</span>
+                <span>+91 6397597020</span>
               </li>
             </ul>
           </div>

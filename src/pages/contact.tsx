@@ -80,7 +80,7 @@ export default function Contact() {
                     <MapPin className="h-6 w-6 shrink-0 text-primary" />
                     <div>
                       <strong className="block text-gray-900">Head Office & Plant</strong>
-                      <span className="text-sm text-gray-600">Industrial Area Phase II<br />Mumbai, Maharashtra<br />India 400001</span>
+                      <span className="text-sm text-gray-600">Gali No. B5, Gopal Puri<br />Aligarh, Uttar Pradesh 202001<br />India</span>
                     </div>
                   </li>
                   <li className="flex gap-4">

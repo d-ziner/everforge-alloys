@@ -1,8 +1,7 @@
 import { Link } from "wouter";
 import { SiWhatsapp } from "react-icons/si";
-import { Menu, X, ChevronDown, Anvil } from "lucide-react";
+import { Menu, X, ChevronDown } from "lucide-react";
 import { useState } from "react";
-import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
 
 export function Navbar() {
@@ -18,9 +17,8 @@ export function Navbar() {
 
       {/* Main Nav */}
       <nav className="flex h-20 items-center justify-between bg-muted px-4 text-white shadow-md sm:px-8">
-        <Link href="/" className="flex items-center gap-2 hover:opacity-90" data-testid="link-logo">
-          <Anvil className="h-8 w-8 text-primary" />
-          <span className="font-serif text-2xl font-bold tracking-tight">EverForge Alloys</span>
+        <Link href="/" className="flex items-center hover:opacity-90" data-testid="link-logo">
+          <img src="/logo.svg" alt="EverForge Alloys" className="h-10 w-auto" />
         </Link>
 
         {/* Desktop Menu */}
@@ -54,7 +52,7 @@ export function Navbar() {
 
         {/* Desktop CTAs */}
         <div className="hidden items-center gap-4 lg:flex">
-          <a href="https://wa.me/919999999999" target="_blank" rel="noreferrer" className="flex items-center gap-2 text-sm font-medium text-[#25D366] transition-opacity hover:opacity-80">
+          <a href="https://wa.me/916397597020" target="_blank" rel="noreferrer" className="flex items-center gap-2 text-sm font-medium text-[#25D366] transition-opacity hover:opacity-80">
             <SiWhatsapp className="h-5 w-5" />
             <span>WhatsApp Us</span>
           </a>
@@ -101,7 +99,7 @@ export function Navbar() {
               <Link href="/contact" onClick={() => setMobileMenuOpen(false)}>Contact</Link>
               
               <div className="mt-4 flex flex-col gap-4 border-t border-gray-700 pt-6">
-                <a href="https://wa.me/919999999999" target="_blank" rel="noreferrer" className="flex items-center gap-2 text-[#25D366]">
+                <a href="https://wa.me/916397597020" target="_blank" rel="noreferrer" className="flex items-center gap-2 text-[#25D366]">
                   <SiWhatsapp className="h-6 w-6" /> WhatsApp Us
                 </a>
                 <Link href="/quote" onClick={() => setMobileMenuOpen(false)} className="flex h-12 items-center justify-center rounded bg-primary text-white">
