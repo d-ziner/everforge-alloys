@@ -1,6 +1,6 @@
 import { Link } from "wouter";
 import { motion } from "framer-motion";
-import { ArrowRight, CheckCircle2, Factory, Globe2, ShieldCheck, TrendingUp, Ship, Settings } from "lucide-react";
+import { CheckCircle2, Factory, Globe2, ShieldCheck, TrendingUp, Ship, Settings } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { SEOHead } from "@/components/seo/SEOHead";
 
@@ -56,7 +56,7 @@ export default function Home() {
             <Button asChild size="lg" className="w-full sm:w-auto bg-primary text-primary-foreground hover:bg-primary/90 text-lg h-14 px-8">
               <Link href="/quote" data-testid="hero-btn-quote">Request a Quote →</Link>
             </Button>
-            <Button asChild variant="outline" size="lg" className="w-full sm:w-auto border-white text-foreground hover:bg-white hover:text-muted text-lg h-14 px-8 bg-transparent">
+            <Button asChild variant="outline" size="lg" className="w-full sm:w-auto border-2 border-white text-white hover:bg-white hover:text-muted text-lg h-14 px-8 bg-transparent">
               <Link href="/products" data-testid="hero-btn-products">View Our Products</Link>
             </Button>
           </motion.div>
