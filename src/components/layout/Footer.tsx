@@ -1,5 +1,5 @@
 import { Link } from "wouter";
-import { Anvil, Mail, MapPin, Phone, Linkedin, Facebook } from "lucide-react";
+import { Mail, MapPin, Phone, Linkedin, Facebook } from "lucide-react";
 
 export function Footer() {
   return (
@@ -9,9 +9,8 @@ export function Footer() {
           
           {/* Logo & Tagline */}
           <div className="flex flex-col gap-6">
-            <div className="flex items-center gap-2 text-white">
-              <Anvil className="h-8 w-8 text-primary" />
-              <span className="font-serif text-2xl font-bold tracking-tight">EverForge Alloys</span>
+            <div>
+              <img src="/logo.svg" alt="EverForge Alloys" className="h-10 w-auto" />
             </div>
             <p className="text-sm leading-relaxed">
               Precision-crafted non-ferrous metal ingots. Manufactured to international standards and exported from India to the world.
@@ -56,7 +55,7 @@ export function Footer() {
             <ul className="flex flex-col gap-4 text-sm">
               <li className="flex items-start gap-3">
                 <MapPin className="mt-0.5 h-5 w-5 shrink-0 text-primary" />
-                <span>Industrial Area Phase II<br />Mumbai, Maharashtra, India</span>
+                <span>Gali No. B5, Gopal Puri<br />Aligarh, Uttar Pradesh 202001, India</span>
               </li>
               <li className="flex items-center gap-3">
                 <Mail className="h-5 w-5 shrink-0 text-primary" />
@@ -64,7 +63,7 @@ export function Footer() {
               </li>
               <li className="flex items-center gap-3">
                 <Phone className="h-5 w-5 shrink-0 text-primary" />
-                <span>+91-9999999999</span>
+                <span>+91 6397597020</span>
               </li>
             </ul>
           </div>
